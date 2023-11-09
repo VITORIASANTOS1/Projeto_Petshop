@@ -47,6 +47,24 @@ nav a:hover {
     color: #6dd432;
 }
 
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+iframe{
+    width: 100%;
+}
+
 #itemContato {
     background-image: none;
     padding-right: 0px;
@@ -107,6 +125,10 @@ nav a:hover {
     color: #000;
     border-radius: 5px;
     cursor: pointer;
+}
+
+#contato .flex-container{
+    margin-top: 43px;
 }
 
 #produto .flex-container {
